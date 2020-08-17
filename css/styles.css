@@ -10151,7 +10151,7 @@ header.masthead h1 {
   position: absolute;
   bottom: 0;
   text-align: center;
-  opacity: 0;
+  opacity: 0.6;
   color: #fff;
   background: rgba(244, 98, 58, 0.9);
   transition: opacity 0.25s ease;
@@ -10171,6 +10171,9 @@ header.masthead h1 {
 #portfolio-present .container-fluid .portfolio-box .portfolio-box-caption .project-name, #portfolio-present .container-sm .portfolio-box .portfolio-box-caption .project-name, #portfolio-present .container-md .portfolio-box .portfolio-box-caption .project-name, #portfolio-present .container-lg .portfolio-box .portfolio-box-caption .project-name, #portfolio-present .container-xl .portfolio-box .portfolio-box-caption .project-name
  {
   font-size: 1.2rem;
+  background: black;
+  padding: 20px;
+  border-radius: 10px;
 }
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption,
 #portfolio-past .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio-past .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio-past .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio-past .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio-past .container-xl .portfolio-box:hover .portfolio-box-caption,
